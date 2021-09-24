@@ -1,0 +1,300 @@
+
+ /* fonts */
+ 
+*{
+    font-family: 'Caramel', cursive;
+    font-family: 'EB Garamond', serif;
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Anton', sans-serif;
+}
+/* body */
+body{
+    margin: 0px;
+}
+.uni-padding{
+    padding: 0% 7%;
+}
+
+/* logo */
+
+#logo-bar{
+    background-color: #525564;
+    overflow:hidden;
+    height: 30px;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    padding: 5px 0px;
+}
+.company-name{
+    float: right;
+    padding-right: 50px;
+    text-align: center;
+    color: rgba(248, 26, 26, 0.822);
+    text-shadow: 2px 4px rgba(73, 41, 41, 0.479);
+}
+#nav-bar{
+    background-color: #74828F;
+
+}
+#nav-bar ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+#nav-bar ul li{
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    padding: 5px;
+    
+}
+#nav-bar ul li a:hover{
+    background-color:  #525564be;
+    transition: all .5s ease;
+}
+.home-page{
+    background-color: #525564be;
+
+}
+
+/* home */
+
+#welcome-img{
+    background-image: url("../images/b1.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: 400px;
+}
+.welcome{
+    position: relative;
+    color: rgba(248, 26, 26, 0.822);
+    top: 300px;
+    left: 900px;
+    text-shadow: 2px 4px rgba(209, 56, 56, 0.479);
+}
+/* team leaders */
+
+#team-leader{
+
+}
+.team{
+    text-align: center;
+    color: rgba(248, 26, 26, 0.822);
+    text-shadow: 2px 4px rgba(209, 56, 56, 0.479);
+    padding: 35px;
+}
+.details{
+    
+   
+
+} 
+.detail1{
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    
+}
+.detail1 h4{
+    text-align: center;
+}
+.detail1 img{
+    position: relative;
+    left: 37%;
+}
+
+/* datas */
+
+#data{
+    background-color: #1d1d1f85;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.data1{
+    padding-top: 50px;
+
+}
+
+.data1 h1{
+    padding-bottom: 15px;
+    color: rgba(248, 26, 26, 0.822);
+    text-shadow: 2px 4px rgba(209, 56, 56, 0.479);
+}
+.data1 p{
+    font-weight: 700px;
+}
+/* image */
+
+#image img{
+    height: 500px;
+    width: 100%;
+    background-position: center;
+}
+/* form */
+
+#contact-form{
+    background-image: url('../images/b2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 400px;
+    opacity: .8;
+}
+#contact-us{
+    text-align: center;
+    color: white;
+}
+#contact-us h1{
+    color: rgb(243, 12, 12);
+}
+form{
+    text-align: center;
+    margin-top: 30px;
+}
+.fillup{
+    padding: 8px;
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    }
+.name{
+    padding: 8px;
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+#cars{
+    width: 230px;
+    padding: 8px;
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+/* footer */
+
+#footer-bar{
+    background-color: #9498aa4f;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.footerimg{
+    display: inline-block;
+    width: 50%;
+    padding-top: 40px;
+}
+.footerimg img{
+    width: 80%;
+    display: inline-block;
+    box-shadow: 10px 10px 5px #888888;
+}
+.about-us{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    display: inline-block;
+    width: 35%;
+    padding: 10px;
+    border: 1px solid rgba(73, 41, 41, 0.479);
+    box-shadow: 10px 10px 5px #888888;
+    background-color: white;
+}
+
+.about-us h2{
+    text-align: center;
+    color: rgba(248, 26, 26, 0.822);
+    text-shadow: 2px 4px rgba(73, 41, 41, 0.479);
+    box-sizing: border-box;
+    padding: 10px;
+}
+.about-us p{
+    padding: 5px 10px;
+    color: black;
+    font-weight: 500;
+}
+.icon-bar{
+    margin: 10px;
+    text-align: center;
+}
+.fab{
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(73, 41, 41, 0.479);
+    border-radius: 10%;
+    margin: 10px;
+    box-shadow: 5px 4px 5px rgba(73, 41, 41, 0.479);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
